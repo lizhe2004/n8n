@@ -4,6 +4,7 @@ RUN apk add ffmpeg
 RUN ffmpeg -h
 RUN mkdir -p /data/n8n/tts/
 RUN chmod 777 /data/n8n/tts/
+RUN apk add  opencore-amr-dev
 ARG PGPASSWORD
 ARG PGHOST
 ARG PGPORT
