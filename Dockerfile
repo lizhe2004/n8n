@@ -1,7 +1,7 @@
 FROM n8nio/n8n
 RUN apk update
 RUN apk add ffmpeg
-ffmpeg -help
+RUN ffmpeg -help
 ARG PGPASSWORD
 ARG PGHOST
 ARG PGPORT
