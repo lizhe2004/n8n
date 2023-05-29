@@ -1,4 +1,4 @@
-FROM lizhe2004/n8n
+FROM docker.io/lizhe2004/n8n:v0.1
 
 RUN mkdir -p /data/n8n/tts/
 RUN chmod 777 /data/n8n/tts/
