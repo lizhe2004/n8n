@@ -2,7 +2,7 @@ FROM n8nio/n8n
 RUN apk update
 RUN mkdir -p /data/n8n/tts/
 RUN chmod 777 /data/n8n/tts/
-RUN apk add  build-base gnutls-dev lame-dev opus-dev libtheora-dev libvpx-dev libwebp-dev x264-dev x265-dev libass-dev libva-dev libvdpau-dev libvorbis-dev opencore-amr-dev dav1d-dev aom-dev libdrm-dev pulseaudio-dev  librist-dev soxr-dev libssh-dev libsrt-dev svt-av1-dev v4l-utils-dev vidstab-dev xvidcore-dev zeromq-dev libxcb-dev libva-dev libvdpau-dev vulkan-loader-dev && \
+RUN apk add  build-base yasm gnutls-dev lame-dev opus-dev libtheora-dev libvpx-dev libwebp-dev x264-dev x265-dev libass-dev libva-dev libvdpau-dev libvorbis-dev opencore-amr-dev dav1d-dev aom-dev libdrm-dev pulseaudio-dev  librist-dev soxr-dev libssh-dev libsrt-dev svt-av1-dev v4l-utils-dev vidstab-dev xvidcore-dev zeromq-dev libxcb-dev libva-dev libvdpau-dev vulkan-loader-dev && \
 wget https://ffmpeg.org/releases/ffmpeg-6.0.tar.gz && \
 tar -zxvf ffmpeg-6.0.tar.gz && \
 cd ffmpeg-6.0 && \
