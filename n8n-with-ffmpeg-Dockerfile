@@ -13,6 +13,6 @@ cd .. && \
 rm -rf ./ffmpeg-7.0 && rm -rf ffmpeg-7.0.tar.gz && \
 apk del build-base && rm -rf /var/cache/apk/*  && \
 mkdir -p /data/n8n/tts/  && \
-chmod 777 /data/n8n/
+chmod -R 777 /data/n8n/
 USER node
 EXPOSE 5678
