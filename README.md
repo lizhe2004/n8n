@@ -1,6 +1,6 @@
 # n8n example
 安装了 ffmpeg应用的n8n服务 
-This example deploys a self-hosted version of [n8n](https://n8n.io/). Internally it uses a PostgreSQL database to store the data.
+This example deploys a self-hosted version of [n8n](https://n8n.io/). Internally it uses a PostgreSQL database to store the data.  
 
 
 ## ✨ Features
